@@ -12,7 +12,7 @@ import { Application } from 'pixi.js';
  */
 export class GameManager {
     public readonly app: Application;
-    private readonly NUMBER_OF_REELS = 10;
+    private readonly NUMBER_OF_REELS = 1;
     private readonly SLOTS_IN_REEL = 3;
 
     private running = false;
